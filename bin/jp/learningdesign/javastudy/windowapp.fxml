@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF^8"?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="300" prefWidth="400"
+	fx:controller="jp.learningdesign.javastudy.WIndowController"
+	xmlns = "http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	
+	<top>
+		<Label fx:id="label1" text ="Hello JavaFX!" BorderPane.alignment="CENTER" />
+	</top>
+	<center>
+		<TextField fx:id="text1" BorderPane.alignment = "CENTER" />
+	</center>
+	<bottom>
+		<Button fx:id="button1" onAction="#buttonAction" text ="送信" BorderPane.alignment ="CENTER" />
+	</bottom>
+</BorderPane>
+
